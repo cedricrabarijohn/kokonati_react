@@ -1,0 +1,48 @@
+.douceur-bienvenue {
+  min-height: 100vh;
+  background-color: #dbe2e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.douceur-bienvenue-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 650px) {
+  .douceur-bienvenue-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.douceur-svg {
+  margin-bottom: 50px;
+}
+.bienvenue-svg {
+  margin-bottom: 120px;
+}
+.douceur-bienvenue-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.douceur-bienvenue-left img {
+  max-width: 100%;
+}
+.douceur-bienvenue-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.douceur-bienvenue-right-name {
+  display: flex;
+  flex-direction: column;
+}
+.douceur-bienvenue-right-name img {
+  max-width: 80%;
+}
+.douceur-bienvenue-right-arrow img {
+  max-width: 80%;
+}

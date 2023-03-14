@@ -1,0 +1,60 @@
+.skin-care {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  /* padding: 0 75px; */
+  background-color: #fcfcfc;
+}
+@media screen and (max-width: 1400px) {
+  .skin-care {
+    flex-direction: column;
+  }
+}
+.skin-care-left {
+  padding: 0 50px 0 100px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 1400px) {
+  .skin-care-left {
+    width: 100%;
+    padding: 0px;
+  }
+}
+.skin-care-left img {
+  max-width: 80%;
+}
+.skin-care-right {
+  width: 50%;
+  background-image: url("./assets/coconut.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: end;
+  position: relative;
+}
+@media screen and (max-width: 1400px) {
+  .skin-care-right {
+    width: 100%;
+  }
+}
+.skin-care-right-content {
+  position: absolute;
+  bottom: 5%;
+  left: 15%;
+}
+
+.skin-care-right-text {
+  line-height: 1.4;
+  font-weight: 300;
+  max-width: 450px;
+  margin-bottom: 75px;
+  font-size: 16px;
+}
+.read-article-text {
+  margin-bottom: 10px;
+}
